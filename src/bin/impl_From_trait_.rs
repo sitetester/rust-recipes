@@ -27,6 +27,7 @@ impl Display for Department {
     }
 }
 
+// `pub trait From<T>` implementation demo
 fn main() {
     let dept = Department::from(vec![
         Employee {

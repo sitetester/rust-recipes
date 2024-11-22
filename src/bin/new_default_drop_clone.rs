@@ -41,6 +41,7 @@ fn consume_user(_user: User) {
     // do nothing
 }
 
+// Constructor, Destructure / Drop & Clone
 fn main() {
     let u1 = User::new("u1");
     consume_user(u1);

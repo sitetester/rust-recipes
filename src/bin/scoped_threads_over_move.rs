@@ -1,3 +1,5 @@
+
+// Use scoped threads to avoid `move` keyword & `closure may outlive` error (safe borrow from the environment)
 fn main() {
     let name1 = String::from("Alex");
     let v1 = (1..=3).collect::<Vec<i32>>();

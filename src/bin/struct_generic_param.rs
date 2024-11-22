@@ -28,6 +28,7 @@ impl Articles<Article> {
     }
 }
 
+// Trait as generic param for struct
 fn main() {
     let article = Article{ title: "test_title".to_string(), content: "test_content".to_string() };
 

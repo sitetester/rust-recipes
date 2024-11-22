@@ -4,6 +4,7 @@ fn print_borrowed<T: Borrow<str>>(s: T) {
     println!("Borrowed str: {}", s.borrow());
 }
 
+// A function taking either owned or borrowed string
 fn main() {
     let string = String::from("hello");
     let str_slice: &str = "world";

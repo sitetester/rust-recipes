@@ -34,6 +34,7 @@ fn call_once_demo() {
     }
 }
 
+// `Once` vs `OnceLock` to initialise some value once per application (irrespective of no of threads calling it)
 fn main() {
     call_once_demo();
     once_lock_demo();

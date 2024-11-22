@@ -85,6 +85,7 @@ fn interior_mutability_demo() -> bool {
     student.passed.take()
 }
 
+// Update a Rust variable without declaring it with `mut`
 fn main() {
     println!("shadow_demo: {}", shadow_demo());
     println!("cell_primitive_demo: {}", cell_primitive_demo());

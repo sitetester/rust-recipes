@@ -25,6 +25,7 @@ fn print_area(shape: &dyn Shape) {
     println!("Area: {}", shape.area());
 }
 
+// Function takes a trait object reference
 fn main() {
     let circle = Circle { radius: 2.0 };
     let rectangle = Rectangle { width: 3.0, height: 4.0 };

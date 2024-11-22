@@ -1,3 +1,5 @@
+
+// Add custom method to built-in types (extension trait)
 fn main() {
     trait BoolTrait {
         fn is_true(&self) -> bool;

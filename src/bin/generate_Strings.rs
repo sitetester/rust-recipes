@@ -1,5 +1,6 @@
 //
 
+// Generate a String variable in multiple ways
 fn main() {
     // Using String::from
     let s1 = String::from("hello");

@@ -15,6 +15,7 @@ fn print_string(input: String) {
     println!("{input}");
 }
 
+// `to_string()` for custom type
 fn main() {
     let alex = User {
         name: "Alex".to_string(),

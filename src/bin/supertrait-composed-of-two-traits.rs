@@ -36,6 +36,7 @@ fn foobar<T: FooBar>(f: T) {
     f.bar();
 }
 
+// supertrait composed of two traits
 fn main() {
     let a = A;
     foo_and_bar(&a);

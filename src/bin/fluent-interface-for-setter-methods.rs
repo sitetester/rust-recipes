@@ -36,7 +36,7 @@ impl Ticket2 {
     }
 }
 
-
+// Fluent interface for setter methods (using 2 approaches)
 fn main() {
     let mut ticket1 = Ticket1 { title: "".to_string(), description: "".to_string() };
     ticket1 = ticket1

@@ -7,6 +7,7 @@ fn parse_demo(s: &str) -> I32OrErrResult {
     Ok(n)
 }
 
+// Return any type of Error
 fn main() {
     let handle_match = |a: I32OrErrResult| {
         match a {

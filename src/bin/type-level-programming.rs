@@ -23,6 +23,7 @@ impl CharacterClass for Warrior {
     }
 }
 
+// Type-level Programming (when a trait has a (placeholder) type which is itself a trait)
 fn main() {
     Warrior::create_weapon().attack();
 }

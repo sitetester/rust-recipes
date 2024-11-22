@@ -27,6 +27,7 @@ impl<T: Logger> Service<T> {
     }
 }
 
+// Simple Dependency Injection using Generics
 fn main() {
     let s1 = Service { logger: ConsoleLogger };
     s1.start();

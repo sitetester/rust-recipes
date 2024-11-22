@@ -20,6 +20,7 @@ impl Deref for User {
     }
 }
 
+// Use a method from containing struct (Deref polymorphism)
 fn main() {
     let user = User { logger: Logger {} };
     user.log("Hello, world!");
