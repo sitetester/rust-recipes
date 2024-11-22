@@ -1,1 +1,1 @@
-Some collection of Rust examples
+A collection of some Rust code examples
